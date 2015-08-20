@@ -6,7 +6,7 @@
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
 	<project name="boto" remote="jiocloud" path="boto"/>
-	<project name-"cinder" revision="jio-kilo" remote="Vaidyanath" path="cinder"/>
+	<project name-"cinder" revision="jio-kilo" remote="Vaidyanath" path="cinder" sync-c="true" sync-j="4"/>
         <project name="msgpack-python" remote="jiocloud" path="msgpack-python"/>
 	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
 	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
