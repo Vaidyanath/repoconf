@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
-  <remote name="Vaidyanath" fetch"https://github.com/Vaidyanath"/>
+  <remote name="Vaidyanath" fetch="https://github.com/Vaidyanath"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
 	<project name="boto" remote="jiocloud" path="boto"/>
-	<project name="cinder" revision="master" remote="Vaidyanath" path="cinder"/>
+	<project name-"cinder" revision="jio-kilo" remote="Vaidyanath" path="cinder"/>
         <project name="msgpack-python" remote="jiocloud" path="msgpack-python"/>
 	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
 	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
