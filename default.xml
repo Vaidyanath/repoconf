@@ -12,6 +12,7 @@
 	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
 	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
 	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
+        <project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
