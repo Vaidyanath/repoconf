@@ -2,6 +2,11 @@
 <manifest>
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
   <remote name="Vaidyanath" fetch="https://github.com/Vaidyanath"/>
+  <remote name="openstack" fetch="https://github.com/openstack"/>
+  <remote name="stackforge" fetch="https://github.com/stackforge/"/>
+  <remote name="dlitz" fetch="https://github.com/dlitz/"/>
+  <remote name="agrover" fetch="https://github.com/agrover/"/>
+  <remote name="andersinno" fetch="https://github.com/andersinno/"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -13,20 +18,31 @@
 	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
 	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
         <project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
+        <project name="oslo.policy" remote="openstack" path="oslo.policy"/>
+        <project name="oslo.reports" remote="openstack" path="oslo.reports"/>
+        <project name="oslo.service" remote="openstack" path="oslo.service"/>
+        <project name="oslo.versionedobjects" remote="openstack" path="oslo.versionedobjects"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
 	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
 	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
 	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
 	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
+        <project name="python-osprofiler" remote="stackforge" path="python-osprofiler"/>
 	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
+        <project name="pycrypto" remote="dlitz" path="pycrypto"/>
+        <project name="rtslib-fb" remote="agrover" path="rtslib-fb"/>
+        <project name="suds-jurko" remote="andersinno" path="suds-jurko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
+        <project name="python-barbicanclient" remote="openstack" path="python-barbicanclient"/>
 	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
 	<project name="python-swiftclient" remote="jiocloud" path="python-swiftclient"/>
 	<project name="python-glanceclient" remote="jiocloud" path="python-glanceclient"/>
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
 	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
 	<project name="python-ironicclient" remote="jiocloud" path="python-ironicclient"/>
+        <project name="python-sqlalchemy" remote="jiocloud" path="python-sqlalchemy"/>
+        <project name="python-sqlalchemy-migrate" remote="stackforge" path="python-sqlalchemy-migrate"/>
 	<project name="python-six" remote="jiocloud" path="python-six"/>
 	<project name="websockify" remote="jiocloud" path="python-websockify"/>
 	<project name="retrying" remote="jiocloud" path="python-retrying"/>
@@ -38,6 +54,7 @@
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
 	<project name="os-testr" remote="jiocloud" path="os-testr"/>
+        <project name="os-brick" remote="openstack" path="os-brick"/>
 	<project name="python-netifaces" remote="jiocloud" path="python-netifaces"/>
 	<project name="pytz_2015_4" remote="jiocloud" path="python-tz"/>
 	<project name="autobuild" remote="Vaidyanath" path="."/>
