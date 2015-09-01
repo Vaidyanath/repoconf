@@ -3,10 +3,11 @@
   <remote name="jiocloud" fetch="https://github.com/jiocloud"/>
   <remote name="Vaidyanath" fetch="https://github.com/Vaidyanath"/>
   <remote name="openstack" fetch="https://github.com/openstack"/>
-  <remote name="stackforge" fetch="https://github.com/stackforge/"/>
-  <remote name="dlitz" fetch="https://github.com/dlitz/"/>
-  <remote name="agrover" fetch="https://github.com/agrover/"/>
-  <remote name="andersinno" fetch="https://github.com/andersinno/"/>
+  <remote name="stackforge" fetch="https://github.com/stackforge"/>
+  <remote name="dlitz" fetch="https://github.com/dlitz"/>
+  <remote name="agrover" fetch="https://github.com/agrover"/>
+  <remote name="andersinno" fetch="https://github.com/andersinno"/>
+  <remote name="zzzeek" fetch="https://github.com/zzzeek"/>
 
 	<default revision="refs/heads/master" remote="jiocloud" sync-c="true" sync-j="4"/>
 
@@ -41,8 +42,8 @@
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
 	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
 	<project name="python-ironicclient" remote="jiocloud" path="python-ironicclient"/>
-        <project name="python-sqlalchemy" remote="jiocloud" path="python-sqlalchemy"/>
-        <project name="python-sqlalchemy-migrate" remote="stackforge" path="python-sqlalchemy-migrate"/>
+        <project name="sqlalchemy" remote="zzzeek" path="sqlalchemy"/>
+        <project name="sqlalchemy-migrate" remote="stackforge" path="sqlalchemy-migrate"/>
 	<project name="python-six" remote="jiocloud" path="python-six"/>
 	<project name="websockify" remote="jiocloud" path="python-websockify"/>
 	<project name="retrying" remote="jiocloud" path="python-retrying"/>
