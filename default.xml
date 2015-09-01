@@ -14,43 +14,43 @@
 	<project name="boto" remote="jiocloud" path="boto"/>
 	<project name="cinder" revision="jio-kilo" remote="Vaidyanath" path="cinder" sync-c="true" sync-j="4"/>
         <project name="msgpack-python" remote="jiocloud" path="msgpack-python"/>
-	<project name="oslo.i18n" remote="jiocloud" path="oslo.i18n"/>
-	<project name="oslo.serialization" remote="jiocloud" path="oslo.serialization"/>
-	<project name="oslo.utils" remote="jiocloud" path="oslo.utils"/>
-	<project name="oslo.messaging" remote="jiocloud" path="oslo.messaging"/>
-        <project name="oslo.middleware" remote="jiocloud" path="oslo.middleware"/>
+	<project name="oslo.i18n" revision="stable/kilo" remote="jiocloud" path="oslo.i18n"/>
+	<project name="oslo.serialization" revision="stable/kilo" remote="jiocloud" path="oslo.serialization"/>
+	<project name="oslo.utils" revision="6ee35b0eb58129c1eb4e07ff76b44762041d26e3" remote="openstack" path="oslo.utils"/>
+	<project name="oslo.messaging" revision="10bc6244aa8a31a610a4cc7180dcf7772d6ff17e" remote="openstack" path="oslo.messaging"/>
+        <project name="oslo.middleware" revision="stable/kilo" remote="jiocloud" path="oslo.middleware"/>
         <project name="oslo.policy" remote="openstack" path="oslo.policy"/>
         <project name="oslo.reports" remote="openstack" path="oslo.reports"/>
         <project name="oslo.service" remote="openstack" path="oslo.service"/>
         <project name="oslo.versionedobjects" remote="openstack" path="oslo.versionedobjects"/>
 	<project name="oslo.config" remote="jiocloud" path="oslo.config"/>
-	<project name="oslo.concurrency" remote="jiocloud" path="oslo.concurrency"/>
-	<project name="oslo.context" remote="jiocloud" path="oslo.context"/>
-	<project name="oslo.db" remote="jiocloud" path="oslo.db"/>
-	<project name="oslo.log" remote="jiocloud" path="oslo.log"/>
+	<project name="oslo.concurrency" revision="2c3a8aa89b52b2c0519d501c305012edc95f6662" remote="openstack" path="oslo.concurrency"/>
+	<project name="oslo.context" revision="1c4757a9fb41e47867bd9b8d390057ad7636b76f" remote="openstack" path="oslo.context"/>
+	<project name="oslo.db" revision="a9f6a2ed7644ee1130121ea2236c05ab7054a1e2" remote="openstack" path="oslo.db"/>
+	<project name="oslo.log" revision="b4e566da70c37f2fa0a3bf32b9f4c36fe4f16f69" remote="openstack" path="oslo.log"/>
         <project name="osprofiler" remote="stackforge" path="osprofiler"/>
-	<project name="keystonemiddleware" remote="jiocloud" path="python-keystonemiddleware"/>
+	<project name="keystonemiddleware" revision="2d4e19404aa33200767dab86956608878876b03a" remote="openstack" path="python-keystonemiddleware"/>
 	<project name="paramiko" remote="jiocloud" path="paramiko"/>
-        <project name="pycrypto" remote="dlitz" path="pycrypto"/>
-        <project name="rtslib-fb" remote="agrover" path="rtslib-fb"/>
+        <project name="pycrypto" revision="373ea760f21701b162e8c4912a66928ee30d401a" remote="dlitz" path="pycrypto"/>
+        <project name="rtslib-fb" revision="837a081a5a437b7b851d2184aa46b94dafa5eaa6" remote="agrover" path="rtslib-fb"/>
         <project name="suds-jurko" remote="andersinno" path="suds-jurko"/>
 	<project name="python-cinderclient" remote="jiocloud" path="python-cinderclient"/>
-        <project name="python-barbicanclient" remote="openstack" path="python-barbicanclient"/>
+        <project name="python-barbicanclient" revision="f5f4f90e5170a2c67ff0b5198b2e8b57b5d42341" remote="openstack" path="python-barbicanclient"/>
 	<project name="python-novaclient" remote="jiocloud" path="python-novaclient"/>
 	<project name="python-swiftclient" remote="jiocloud" path="python-swiftclient"/>
 	<project name="python-glanceclient" remote="jiocloud" path="python-glanceclient"/>
 	<project name="python-neutronclient" remote="jiocloud" path="python-neutronclient"/>
 	<project name="python-keystoneclient" remote="jiocloud" path="python-keystoneclient"/>
 	<project name="python-ironicclient" remote="jiocloud" path="python-ironicclient"/>
-        <project name="sqlalchemy" remote="zzzeek" path="sqlalchemy"/>
-        <project name="sqlalchemy-migrate" remote="stackforge" path="sqlalchemy-migrate"/>
+        <project name="sqlalchemy" revision="1239cf2c0a428fd54aea0c40992946256012ccfb" remote="zzzeek" path="sqlalchemy"/>
+        <project name="sqlalchemy-migrate" revision="e57ee4c3a4247c634980cbeba74d04a01253967d" remote="stackforge" path="sqlalchemy-migrate"/>
 	<project name="python-six" remote="jiocloud" path="python-six"/>
 	<project name="websockify" remote="jiocloud" path="python-websockify"/>
-	<project name="retrying" remote="jiocloud" path="python-retrying"/>
+	<project name="retrying" revision="3659c70b1f0d0e4f3a262d6b76075a8eb082c73d" remote="jiocloud" path="python-retrying"/>
 	<project name="ironic" remote="jiocloud" path="ironic"/>
 	<project name="posix_ipc" remote="jiocloud" path="posix_ipc"/>
 	<project name="proliantutils" remote="jiocloud" path="proliantutils"/>
-	<project name="stevedore" remote="jiocloud" path="stevedore"/>
+	<project name="stevedore" revision="6ddec6e4c852e454cc84a87c3fafc09292346d24" remote="openstack" path="stevedore"/>
 	<project name="tempest" remote="jiocloud" path="tempest"/>
 	<project name="tempest-lib" remote="jiocloud" path="tempest-lib"/>
 	<project name="testtools" remote="jiocloud" path="testtools"/>
